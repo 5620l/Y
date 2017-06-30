@@ -94,24 +94,14 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Reborn v6.0
-An advanced administration bot based on https://valtman.name/telegram-cli
+    info_text = [[monsterTG 
 
-》https://github.com/BeyondTeam/BDReborn 
+Admins :
+@TAHA_RI *SUDO*	
 
-》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@ToOfan ➣ Developer《
+_channel :_
+@monsterTGteam
 
-》Special thanks to :
-》Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
